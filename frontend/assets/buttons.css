@@ -1,0 +1,37 @@
+.btn,
+.btn:hover,
+a,
+a:hover {
+    transition: all .25s ease; /* enter a state - animate */
+}
+
+/* Default Button Override
+----------------------------------------- */
+.btn-primary {
+    background: #a3e000 !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    border: none !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #c1f531 !important;
+    color: #1a2400 !important;
+}
+
+/* Secondary Button Override
+----------------------------------------- */
+
+/* Anchor Tag Override
+----------------------------------------- */
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #94cc00;
+    text-decoration: none;
+    font-weight: bold;
+}
